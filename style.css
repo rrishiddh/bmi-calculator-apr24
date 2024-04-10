@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;     
+    font-family: "Poppins", sans-serif;
+   
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;    
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,61,133,1) 96%);   
+    color: whitesmoke;
+}
+h1{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    padding: 12px;
+}
+span {
+    color: red;
+}
+.wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* .wrapper p{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+
+} */
+input{
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+button {  
+    color: white;
+    padding: 10px;
+    
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+#output{
+    padding:  20px 0px  10px 0px;
+}
